@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;500;600&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Encryptor</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Encryptor Texto</h1>
+        <label for="message">Mensagem :</label> 
+        <textarea  id="message"  rows="5" cols="50">Essa e uma mensagem secreta do Encryptor !</textarea> 
+        <label for="key">Key :</label> 
+        <input type="text" id="key" value="Cadu" size="50"> 
+        <div class="buttons">
+            <button id="enc-btn">
+                Codificar
+            </button>
+            <button id="dec-btn">
+                Decofificar
+            </button>
+        </div>
+
+        <h2>Resultado</h2>
+        <div id="resultado">
+
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
